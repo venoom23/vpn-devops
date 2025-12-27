@@ -4,11 +4,11 @@
 
   tasks:
     - name: Update apt cache
-      apt:
+      ansible.builtin.apt:
         update_cache: yes
 
     - name: Install base packages
-      apt:
+      ansible.builtin.apt:
         name:
           - curl
           - git
