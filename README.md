@@ -1,7 +1,7 @@
 # VPN DevOps Project
 
 ## Description
-Personal VPN service based on WireGuard with DevOps practices.
+Личный VPN на базе WireGuard для DevOps-практики
 
 ## Stack
 - Linux (Ubuntu)
