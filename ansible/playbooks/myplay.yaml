@@ -1,0 +1,17 @@
+- name: Base system setup
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install base packages
+      apt:
+        name:
+          - curl
+          - git
+          - ca-certificates
+          - apt-transport-https
+        state: present

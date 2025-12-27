@@ -1,0 +1,11 @@
+[control]
+control.example.com ansible_user=ubuntu
+
+[k8s_master]
+master.example.com ansible_user=ubuntu
+
+[k8s_worker]
+worker.example.com ansible_user=ubuntu
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
